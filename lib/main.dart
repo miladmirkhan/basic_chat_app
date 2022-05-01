@@ -1,3 +1,4 @@
+import 'package:basic_chat_app/Screens/auth_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -13,18 +14,7 @@ class meterial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: homeScreen(),
-      
-    );
-  }
-}
-
-class homeScreen extends StatelessWidget {
-  const homeScreen({ Key? key }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
+      home: AuthScreen(),
       
     );
   }
